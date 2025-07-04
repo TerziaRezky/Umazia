@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "Martabak Mini",
+        "description": "Kue mini lembut dengan isi coklat dan lapisan cream yang creamy.",
+        "price": 2500,
+        "category": "cake",
+        "image": "mrtbk_mini.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Putu Ayu",
+        "description": "Kue tradisional lembut dengan aroma pandan dan taburan kelapa parut yang gurih.",
+        "price": 2000,
+        "category": "cake",
+        "image": "ayu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bolu Gulung Coklat",
+        "description": "Kue coklat padat dengan lapisan cream kental yang kaya rasa.",
+        "price": 3000,
+        "category": "cake",
+        "image": "bolgul_cklt.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bolu susu",
+        "description": "Bolu klasik dengan tekstur lembut dan rasa susu yang nikmat.",
+        "price": 2000,
+        "category": "cake",
+        "image": "bolsu.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lemper",
+        "description": "Ketan pulen berisi ayam suwir bumbu, dibungkus daun pisang.",
+        "price": 2000,
+        "category": "cookie",
+        "image": "lemper.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Risol Kentang",
+        "description": "Kulit risol renyah berisi kentang lembut dengan daging dan sayuran.",
+        "price": 2500,
+        "category": "cookie",
+        "image": "risol.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pastel",
+        "description": "Kue Pastel Deangan isi bihun dan kentang juag wortel.",
+        "price": 2000,
+        "category": "cookie",
+        "image": "pastel.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Lemper Goreng",
+        "description": "Kue Goreng dengan lemper yang dilapisi oleh panir lalu di goreng.",
+        "price": 2500,
+        "category": "cookie",
+        "image": "lemper_grg.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Bolu Oreo",
+        "description": "Kue Basah dengan oreo dan susu.",
+        "price": 3000,
+        "category": "cake",
+        "image": "oreo.jpg"
+    },
+
+    {
+        "id": 10,
+        "name": "Rainbow Cake",
+        "description": "Kue Basag Rainbow dengan rasa cream dan mentega yang kaya.",
+        "price": 2500,
+        "category": "cake",
+        "image": "rainbow.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Kue Lumpur",
+        "description": "Kue Basah dengan kismis yang Terbuat dari campuarn kentang dan cream susu.",
+        "price": 2500,
+        "category": "cake",
+        "image": "lumpur.jpg"
+    },
+
+    {
+        "id": 12,
+        "name": "nona manis",
+        "description": "Kue basah dengan Pandan dan Cream dari santan.",
+        "price": 2000,
+        "category": "cake",
+        "image": "nonis.jpg"
+    },
+
+     {
+        "id": 13,
+        "name": "Snack box",
+        "description": "Kue Basag Rainbow dengan rasa cream dan mentega yang kaya.",
+        "price": 3000,
+        "category": "cupcake",
+        "image": "box.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Snack Nampan",
+        "description": "Kue Basah dengan kismis yang Terbuat dari campuarn kentang dan cream susu.",
+        "price": 3000,
+        "category": "cupcake",
+        "image": "snack.jpg"
+    }
+
+   
+]

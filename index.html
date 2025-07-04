@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umazia - Toko Kue Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+      <header>
+        <div class="container">
+            <div class="logo" data-aos="fade-down">
+                <img src="images/OIP.webp" alt="Umazia">
+                <h1>Umazia</h1>
+            </div>
+            <nav >
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+           
+        </div>
+    </header>
+<div class="wishlist-count">0</div>
+    <button class="wishlist-toggle">
+        <i class="fas fa-heart"></i>
+    </button>
+
+    <div class="wishlist-sidebar">
+        <div class="wishlist-header">
+            <h3>Wishlist Saya</h3>
+            <button class="close-wishlist">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="wishlist-items">
+            <!-- Wishlist items will be added here -->
+        </div>
+    </div>
+    <section class="hero" id="home">
+       
+  <div class="hero-content">
+    <h2 data-aos="fade-up" data-aos-delay="100">Selamat Datang di Umazia Cakes & Snack Box</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Temukan cita rasa manis yang tak terlupakan di setiap gigitan. Kue homemade yang dibuat dengan cinta dan bahan pilihan.</p>
+   <div data-aos="fade-up" data-aos-delay="300">
+       <a href="https://wa.me/62881022721767?text=Halo%20Umazia,%20saya%20ingin%20memesan%20kue" class="cta-btn1" target="_blank">Pesan Sekarang</a>
+       <a href="#products" class="cta-btn">Lihat Produk</a>
+   </div>
+</div>
+
+    </section>
+
+    <section class="products" id="products" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <h2 class="section-title">Produk Kami</h2>
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="cake">Kue</button>
+                <button class="filter-btn" data-filter="cupcake">Snack Box</button>
+                <button class="filter-btn" data-filter="cookie">Kue goreng/kering</button>
+            </div>
+            <div class="product-grid">
+                <!-- Produk akan dimuat melalui JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Tentang Umazia</h2>
+                <p>Umazia didirikan pada tahun 2019 dengan misi menyebarkan kebahagiaan melalui kue-kue lezat. Kami menggunakan bahan-bahan berkualitas tinggi dan selalu berinovasi dengan rasa dan desain.</p>
+                <p>Setiap kue dibuat dengan penuh cinta oleh tim kami yang berpengalaman lebih dari 5 tahun di bidang pastry.</p>
+                <a href="#contact" class="btn">Hubungi Kami</a>
+            </div>
+            <div class="about-image">
+                <img src="images/lemper.jpg" alt="Tentang Umazia">
+            </div>
+        </div>
+    </section>
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="section-title">Testimoni Pelanggan</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="quote-icon">"</div>
+                <p>Kue dari Umazia selalu jadi favorit keluarga. Rasanya enak dan penyajiannya cantik!</p>
+                <div class="author-info">
+                    <div class="author-icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author">Dian Sastro</div>
+                    <div class="author-title">Ibu Rumah Tangga</div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote-icon">"</div>
+                <p>Pesanan untuk ulang tahun anak saya sangat memuaskan. Desainnya sesuai permintaan dan rasanya lezat.</p>
+                <div class="author-info">
+                    <div class="author-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="author">Ahmad Sugandi</div>
+                    <div class="author-title">Guru</div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote-icon">"</div>
+                <p>Pelayanan ramah dan kue-kuenya fresh. Sudah langganan 2 tahun terakhir.</p>
+                <div class="author-info">
+                    <div class="author-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="author">Raisa Andriana</div>
+                    <div class="author-title">Pelajar</div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="dots-container"></div>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+<style>
+.testimonials {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f9f3f3 0%, #f0e6ff 100%);
+    position: relative;
+}
+
+.testimonials .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff6b8b;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #ff7eb9;
+    margin: 15px auto 0;
+}
+
+.testimonial-slider {
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.testimonial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s ease;
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: scale(0.95);
+}
+
+.testimonial.active {
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+.quote-icon {
+    font-size: 4rem;
+    color: #ff6b8b;
+    line-height: 1;
+    margin-bottom: 20px;
+    opacity: 0.3;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 30px;
+    font-style: italic;
+    position: relative;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0e6ff;
+    color: #ff6b8b;
+    font-size: 3rem;
+    border: 4px solid #e0c8ff;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ff6b8b;
+    margin-bottom: 5px;
+}
+
+.author-title {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.slider-controls button {
+    background: #5d3bad;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-controls button:hover {
+    background: #ff7eb9;
+    transform: scale(1.1);
+}
+
+.dots-container {
+    display: flex;
+}
+
+
+.dot.active {
+    background: #5d3bad;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .testimonial {
+        padding: 30px 20px;
+    }
+    
+    .testimonial p {
+        font-size: 1rem;
+    }
+    
+    .author-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+}
+</style>
+
+<!-- Jangan lupa include Font Awesome untuk ikon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const testimonials = document.querySelectorAll('.testimonial');
+    const dotsContainer = document.querySelector('.dots-container');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let currentIndex = 0;
+    let slideInterval;
+    const intervalTime = 5000; // 5 detik
+    
+    // Create dots
+    testimonials.forEach((_, index) => {
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        if(index === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => {
+            goToSlide(index);
+        });
+        dotsContainer.appendChild(dot);
+    });
+    
+    const dots = document.querySelectorAll('.dot');
+    
+    // Start autoplay
+    startSlider();
+    
+    function startSlider() {
+        slideInterval = setInterval(() => {
+            nextSlide();
+        }, intervalTime);
+    }
+    
+    function resetInterval() {
+        clearInterval(slideInterval);
+        startSlider();
+    }
+    
+    function showSlide(index) {
+        testimonials.forEach((testimonial, i) => {
+            testimonial.classList.remove('active');
+            dots[i].classList.remove('active');
+            if(i === index) {
+                testimonial.classList.add('active');
+                dots[i].classList.add('active');
+            }
+        });
+    }
+    
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % testimonials.length;
+        showSlide(currentIndex);
+    }
+    
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+        showSlide(currentIndex);
+    }
+    
+    function goToSlide(index) {
+        currentIndex = index;
+        showSlide(currentIndex);
+        resetInterval();
+    }
+    
+    // Event listeners
+    nextBtn.addEventListener('click', () => {
+        nextSlide();
+        resetInterval();
+    });
+    
+    prevBtn.addEventListener('click', () => {
+        prevSlide();
+        resetInterval();
+    });
+    
+    // Pause on hover
+    const slider = document.querySelector('.testimonial-slider');
+    slider.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+    });
+    
+    slider.addEventListener('mouseleave', () => {
+        startSlider();
+    });
+});
+</script>
+
+   <section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rt 14 Rw 04 Bonang, Kabupaten Majalengka, Jawa Barat</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+62 881-0227-21767</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@Umazia.com</p>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/62881022721767" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="whatsappForm">
+                <input type="text" id="name" placeholder="Nama Anda" required>
+                <input type="email" id="email" placeholder="Email Anda">
+                <input type="tel" id="phone" placeholder="Nomor Telepon" required>
+                <textarea id="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Ambil nilai form
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+    
+    // Format pesan WhatsApp
+    const whatsappMessage = `Halo Umazia,%0A%0ASaya ${name} ingin bertanya:%0A${message}%0A%0AData kontak saya:%0AEmail: ${email}%0ANomor HP: ${phone}`;
+    
+    // Nomor WhatsApp tujuan
+    const phoneNumber = '62881022721767'; // Tanpa tanda + atau 0
+    
+    // Redirect ke WhatsApp
+    window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, '_blank');
+    
+    // Reset form setelah pengiriman
+    this.reset();
+});
+</script>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Umazia</h3>
+                    <p>Toko kue premium dengan berbagai pilihan rasa dan desain cantik untuk setiap momen spesial Anda.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Dapatkan promo dan menu terbaru kami</p>
+                    <form>
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Umazia. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
